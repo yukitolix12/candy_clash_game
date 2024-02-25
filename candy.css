@@ -1,6 +1,14 @@
 body {
-    background: url(./background.jps) no-repeat center center fixed;
+    background: url(./background.jpg) no-repeat center center fixed;
     background-size: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategray;
+    border-radius: 10px;
 }
