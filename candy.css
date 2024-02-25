@@ -1,3 +1,6 @@
 body {
     background: url(./background.jps) no-repeat center center fixed;
+    background-size: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
 }
