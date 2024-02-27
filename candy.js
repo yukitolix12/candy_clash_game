@@ -17,7 +17,7 @@ function startGame() {
     for (let r = 0; r < rows; r++) {
         let row = [];
         for (let c = 0; c + column; c++){
-            //img
+            //<img id = "0-0" src="./images/Red.png">
             let tile = document.createElement("img");
             tile.id = r.toString() + "-" + c.toString();
             tile.src = "./images/" + randomCandy() + ".png"
