@@ -20,7 +20,7 @@ function startGame() {
             //<img id = "0-0" src="./images/Red.png">
             let tile = document.createElement("img");
             tile.id = r.toString() + "-" + c.toString();
-            tile.src = "./images/" + randomCandy() + ".png"
+            tile.src = "./images/" + randomCandy() + ".png";
         }
     }
 }
