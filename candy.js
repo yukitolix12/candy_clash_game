@@ -27,4 +27,6 @@ function startGame() {
         }
         board.push(tile);
     }
+
+    console.log(board);
 }
