@@ -22,6 +22,14 @@ function startGame() {
             tile.id = r.toString() + "-" + c.toString();
             tile.src = "./images/" + randomCandy() + ".png";
 
+            //DRAG FUNCTIONALITY
+            tile.addEventListener("dragstart", dragStart);
+            tile.addEventListener("dragover", dragOver);
+            tile.addEventListener("dragenter", dragEnter);
+            tile.addEventListener("dragleave", dragLeave);
+            tile.addEventListener("dragend", dragEnd);
+            tile.addEventListener("drag", dragDrop);
+
             document.getElementById("board").append(tile);
             row.push(tile);
         }
