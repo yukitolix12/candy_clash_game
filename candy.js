@@ -9,6 +9,10 @@ window.onload = function(){
     startGame();
 }
 
+function randomCandy()  {
+    
+}
+
 function startGame() {
     for (let r = 0; r < rows; r++) {
         let row = [];
