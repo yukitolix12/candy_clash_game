@@ -27,8 +27,8 @@ function startGame() {
             tile.addEventListener("dragover", dragOver);  //click on a candy,moving ,mouse to drag the candy
             tile.addEventListener("dragenter", dragEnter); //dragging candy onto another candy
             tile.addEventListener("dragleave", dragLeave); //leave candy over another candy
-            tile.addEventListener("dragend", dragEnd); //after drag process completed,we swap candy
             tile.addEventListener("drag", dragDrop); // dropping a candy over another candy
+            tile.addEventListener("dragend", dragEnd); //after drag process completed,we swap candy
 
             document.getElementById("board").append(tile);
             row.push(tile);
