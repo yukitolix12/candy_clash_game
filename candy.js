@@ -21,6 +21,8 @@ function startGame() {
             let tile = document.createElement("img");
             tile.id = r.toString() + "-" + c.toString();
             tile.src = "./images/" + randomCandy() + ".png";
+
+            document.getElementById("board").append(tile);
         }
     }
 }
