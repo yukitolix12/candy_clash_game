@@ -10,7 +10,7 @@ window.onload = function(){
 }
 
 function randomCandy()  {
-    
+    return candies[Math.floor(Math.random() * candies.length)]; //0 - 5.99
 }
 
 function startGame() {
