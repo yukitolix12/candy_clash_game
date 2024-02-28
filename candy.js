@@ -46,3 +46,7 @@ function dragStart() {
     //this refers to tile that clicked on for dragging
     currTile = this;
 }
+
+function dragOver() {
+    e.preventDefault();
+}
