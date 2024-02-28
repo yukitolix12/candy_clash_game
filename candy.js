@@ -56,5 +56,10 @@ function dragEnter(e) {
 }
 
 function dragLeave() {
-    
+
+}
+
+function dragDrop() {
+    //this refers to the target tile that dropped on
+    otherTile = this;
 }
