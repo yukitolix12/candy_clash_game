@@ -30,7 +30,7 @@ function startGame() {
             tile.addEventListener("dragover", dragOver);  //click on a candy,moving ,mouse to drag the candy
             tile.addEventListener("dragenter", dragEnter); //dragging candy onto another candy
             tile.addEventListener("dragleave", dragLeave); //leave candy over another candy
-            tile.addEventListener("drag", dragDrop); // dropping a candy over another candy
+            tile.addEventListener("drop", dragDrop); // dropping a candy over another candy
             tile.addEventListener("dragend", dragEnd); //after drag process completed,we swap candy
 
             document.getElementById("board").append(tile);
@@ -66,7 +66,7 @@ function dragDrop() {
 
 function dragEnd() {
 
-    let curring = currTile.src;
+    let currImg = currTile.src;
     let otherImg = otherTile.src;
     currTile.src = otherImg;
     otherTile.src = currImg;
