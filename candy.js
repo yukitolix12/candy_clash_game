@@ -5,6 +5,9 @@ var rows = 9;
 var columns = 9;
 var score = 0;
 
+var currTile;
+var otherTile;
+
 window.onload = function(){
     startGame();
 }
@@ -40,5 +43,5 @@ function startGame() {
 }
 
 function dragStart() {
-    
+
 }
