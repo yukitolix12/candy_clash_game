@@ -38,3 +38,7 @@ function startGame() {
 
     console.log(board);
 }
+
+function dragStart() {
+    
+}
