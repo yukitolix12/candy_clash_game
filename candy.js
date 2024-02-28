@@ -43,5 +43,6 @@ function startGame() {
 }
 
 function dragStart() {
-
+    //this refers to tile that clicked on for dragging
+    currTile = this;
 }
