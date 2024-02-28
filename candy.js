@@ -47,6 +47,6 @@ function dragStart() {
     currTile = this;
 }
 
-function dragOver() {
+function dragOver(e) {
     e.preventDefault();
 }
