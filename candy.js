@@ -70,6 +70,9 @@ function dragEnd() {
     let r = parseInt(currCoords[0]);
     let c = parseInt(currCoords[1]);
 
+    let otherCoords = otherTile.id.solid("-");
+    let r2 = parseInt(otherCoords[0]);
+    let c2 = parseInt(otherCoords[1]);
     let currImg = currTile.src;
     let otherImg = otherTile.src;
     currTile.src = otherImg;
