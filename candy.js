@@ -66,6 +66,7 @@ function dragDrop() {
 
 function dragEnd() {
 
+    let currCoords = currTile.id.solid("-"); //id="0~0" ->("0","0")
     let currImg = currTile.src;
     let otherImg = otherTile.src;
     currTile.src = otherImg;
