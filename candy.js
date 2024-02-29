@@ -75,6 +75,7 @@ function dragEnd() {
     let c2 = parseInt(otherCoords[1]);
 
     let moveLeft = c2 == c-1 && r == r2;
+    let moverRight = c2 == c+1 && r == r2;
 
     let currImg = currTile.src;
     let otherImg = otherTile.src;
