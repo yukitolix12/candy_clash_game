@@ -77,6 +77,9 @@ function dragEnd() {
     let moveLeft = c2 == c-1 && r == r2;
     let moverRight = c2 == c+1 && r == r2;
 
+    let moveUp = r2 == r-1 && c == c2;
+    let moveDown = r2 == r+1 && c == c2;
+
     let currImg = currTile.src;
     let otherImg = otherTile.src;
     currTile.src = otherImg;
