@@ -110,4 +110,11 @@ function crushThree() {
             }
         }
     }
+
+    //check columns
+    for(let c = 0; c < columns; c++){
+        for(let r = 0; r < rows-2; r++){
+
+        }
+    }
 }
