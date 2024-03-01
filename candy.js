@@ -114,7 +114,9 @@ function crushThree() {
     //check columns
     for(let c = 0; c < columns; c++){
         for(let r = 0; r < rows-2; r++){
-
+            let candy1 = board[r][c];
+            let candy2 = board[r+1][c];
+            let candy3 = board[r+2][c];
         }
     }
 }
