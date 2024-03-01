@@ -105,6 +105,8 @@ function crushThree() {
             let candy3 = board[r][c+2];
             if(candy1.src == candy2.src && candy2.src == candy3.src && !candy1.src.includes("blank")){
                 candy1.src = "./images/blank.png";
+                candy1.src = "./images/blank.png";
+                candy1.src = "./images/blank.png";
             }
         }
     }
