@@ -95,3 +95,12 @@ function crushCandy() {
     //crushFour()
     crushThree();
 }
+
+function crushThree() {
+    //check rows
+    for(let r = 0; r < rows; r++) {
+        for(let c = 0; c < columns; c++) {
+            
+        }
+    }
+}
