@@ -155,4 +155,6 @@ function checkValid() {
             }
         }
     }
+
+    return false;
 }
