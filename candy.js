@@ -130,3 +130,7 @@ function crushThree() {
         }
     }
 }
+
+function checkValid() {
+    
+}
