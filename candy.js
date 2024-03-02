@@ -13,7 +13,7 @@ window.onload = function(){
 
     window.setInterval((function){
         crushCandy();
-    })
+    }, 100);
 }
 
 function randomCandy()  {
