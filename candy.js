@@ -11,9 +11,9 @@ var otherTile;
 window.onload = function(){
     startGame();
 
-    window.setInterval(function){
-        
-    }
+    window.setInterval((function){
+        crushCandy();
+    })
 }
 
 function randomCandy()  {
