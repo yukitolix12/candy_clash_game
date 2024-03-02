@@ -92,7 +92,11 @@ function dragEnd() {
         let otherImg = otherTile.src;
         currTile.src = otherImg;
         otherTile.src = currImg;
-        let validMore = checkValid();
+
+        let validMove = checkValid();
+        if(!validMove){
+            
+        }
     }
 }
 
