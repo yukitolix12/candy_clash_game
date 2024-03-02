@@ -12,7 +12,7 @@ window.onload = function(){
     startGame();
 
     //1/10th of a second
-    window.setInterval((function){
+    window.setInterval(function(){
         crushCandy();
     }, 100);
 }
