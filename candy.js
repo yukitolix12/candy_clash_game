@@ -10,6 +10,10 @@ var otherTile;
 
 window.onload = function(){
     startGame();
+
+    window.setInterval(function){
+        
+    }
 }
 
 function randomCandy()  {
