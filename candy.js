@@ -72,7 +72,7 @@ function dragDrop() {
 function dragEnd() {
 
     if(currTile.src.includes("blank") || otherTile.src.includes("blank")){
-
+        return;
     }
 
     let currCoords = currTile.id.split("-"); //id="0~0" ->("0","0")
