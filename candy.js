@@ -172,5 +172,7 @@ function checkValid() {
 }
 
 function slideCandy() {
-    
+    for (let c = 0; c < columns; c++){
+        
+    }
 }
