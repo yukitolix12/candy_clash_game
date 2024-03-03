@@ -174,5 +174,8 @@ function checkValid() {
 function slideCandy() {
     for (let c = 0; c < columns; c++){
         let ind = rows - 1;
+        for(let r = columns-1; r >= 0; r--){
+            
+        }
     }
 }
