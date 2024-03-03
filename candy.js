@@ -71,6 +71,10 @@ function dragDrop() {
 
 function dragEnd() {
 
+    if(currTile.src.includes("blank") || otherTile.src.includes("blank")){
+
+    }
+
     let currCoords = currTile.id.split("-"); //id="0~0" ->("0","0")
     let r = parseInt(currCoords[0]);
     let c = parseInt(currCoords[1]);
