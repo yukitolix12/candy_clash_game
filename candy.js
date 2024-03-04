@@ -183,6 +183,6 @@ function slideCandy() {
     }
 
     for (let r = ind; r >= 0; r--){
-        
+        board[r][c].src = "./images/blank.png";
     }
 }
