@@ -188,4 +188,8 @@ function slideCandy() {
     }
 }
 
+function generateCandy(){
+    
+}
+
     
