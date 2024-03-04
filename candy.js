@@ -181,9 +181,11 @@ function slideCandy() {
                 ind -= 1;
             }
         }
-    }
 
-    for (let r = ind; r >= 0; r--){
-        board[r][c].src = "./images/blank.png";
+        for (let r = ind; r >= 0; r--){
+            board[r][c].src = "./images/blank.png";
+        }
     }
 }
+
+    
