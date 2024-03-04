@@ -190,7 +190,9 @@ function slideCandy() {
 }
 
 function generateCandy(){
-
+    for(let c = 0; c < columns; c++){
+        
+    }
 }
 
     
