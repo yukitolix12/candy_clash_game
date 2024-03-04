@@ -126,6 +126,7 @@ function crushThree() {
                 candy1.src = "./images/blank.png";
                 candy2.src = "./images/blank.png";
                 candy3.src = "./images/blank.png";
+                score += 30;
             }
         }
     }
@@ -140,6 +141,7 @@ function crushThree() {
                 candy1.src = "./images/blank.png";
                 candy2.src = "./images/blank.png";
                 candy3.src = "./images/blank.png";
+                score += 30;
             }
         }
     }
