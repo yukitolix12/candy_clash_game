@@ -113,6 +113,7 @@ function crushCandy() {
     //crushFive()
     //crushFour()
     crushThree();
+    document.getElementById("score").innerText = score;
 }
 
 function crushThree() {
