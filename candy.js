@@ -181,4 +181,8 @@ function slideCandy() {
             }
         }
     }
+
+    for (let r = ind; r >= 0; r--){
+        
+    }
 }
